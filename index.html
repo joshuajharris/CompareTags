@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="CompareTagsApp">
+    <head>
+        <title>CompareTags</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/tweetCounter.js"></script>
+    </head>
+    <body>
+        <h1>CompareTags</h1>
+        <div id="list-wrapper" ng-controller="TagController as tags">
+            <table>
+                <tr>
+                    <th>Tag Name</th>
+                    <th>Count</th>
+                </tr>
+                <tr ng-repeat="tag in tags.tags">
+                    <td>{{ tag.name }}</td>
+                    <td class="rightJust">{{ tag.count }}</td>
+                <tr>
+            </table>
+        </div>
+    </body>
+</html>

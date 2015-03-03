@@ -1,0 +1,31 @@
+body {
+    background-color: #EEE;
+    font-family: 'Verdana', Sans-Serif;
+}
+
+#list-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #DDD;
+    color: #666;
+    padding: 5px;
+}
+
+#list-wrapper table {
+    border: 1px solid #999;
+    width: 100%;
+}
+
+.rightJust {
+    text-align: right;
+}
+
+#list-wrapper table {
+    border-spacing: 0;
+}
+
+#list-wrapper table th {
+    border-bottom: 1px solid #999;
+}
